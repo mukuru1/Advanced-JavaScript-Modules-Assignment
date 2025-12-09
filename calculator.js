@@ -9,6 +9,6 @@ const pow = power(2, 5);
 const results = { sum, diff, product, quotient, pow };
 
 
-
-console.log(results);module.exports = results;
-module.exports = results;
+for (const key in results) {
+  console.log(`${key} → ${results[key]}`);
+}
