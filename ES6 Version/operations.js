@@ -1,4 +1,5 @@
 export function add(a, b) {
+
     if (typeof a !== 'number') {
         return "Invalid input";
     }
@@ -9,6 +10,7 @@ export function add(a, b) {
 }
 
 export function subtract(a, b) {
+    
     if (typeof a !== 'number') {
         return "Invalid input";
     }
