@@ -9,6 +9,7 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
+    
     if (typeof a !== 'number') {
         return "Invalid input";
     }
