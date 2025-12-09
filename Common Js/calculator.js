@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide, power } = require("./ES6 Version/Common Js/operations");
+const { add, subtract, multiply, divide, power } = require("./operations");
 
 const sum = add(20, 10);
 const diff = subtract(30, 12);
